@@ -1,0 +1,32 @@
+
+
+.primary{
+  color: var(--primary)
+}
+
+.white{
+  color: var(--white);
+}
+
+.d-flex{
+  display: flex;
+}
+
+
+.justify-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+
+.font-xl{
+  font-size: 3rem;
+}
+
+.my-0{
+  margin-top: 0;
+  margin-bottom: 0;
+}

@@ -1,0 +1,45 @@
+.nav{
+  background-color: var(--primary);
+  padding: 10px 15px;
+  box-shadow: 0px 5px 8px rgb(57, 57, 57);
+}
+
+.nav>.nav-list{
+  list-style: none;
+  padding-left: 0;
+}
+.nav>.nav-list>.nav-list-item{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.nav>.nav-list>.nav-list-item>a{
+  text-decoration: none;
+  font-size: 1.5rem;
+
+  text-shadow: 5px 5px 8px rgb(92, 92, 92);
+
+}
+
+.nav>.nav-list>.nav-list-item>a:hover{
+  color: var(--secondary);
+}
+
+.main-hero{
+  height: 80vh; 
+  background-image: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .main-hero:hover{
+  filter: blur(8px);
+
+  transition-property: filter;
+  transition-duration: 1s;
+} */
+
+.main-hero>.card{
+  background-color: #b9b6b66d;
+}
