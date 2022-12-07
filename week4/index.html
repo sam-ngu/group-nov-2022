@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+  <!-- landing -->
+  <!-- start btn to start the game -->
+  <section class="text title transparent" id="section-landing">
+    <h1>Welcome to the best game evar</h1>
+
+    <div>
+      <button id="start-game">Start</button>
+    </div>
+  </section>
+
+
+  <!-- question page -->
+  <section class="hide" id="section-question">
+    <!-- nav -- timer / clock -->
+    <nav>
+      Time: <span id="span-timer">60</span>s
+    </nav>
+  
+    <!-- title -->
+    <h1 id="question-title">How are you doin?</h1>
+    <!-- choices -->
+    <ul id="question-choices">
+      <li><button type="button">Good</button></li>
+      <li><button type="button">Not good</button></li>
+      <li><button type="button">maybe </button></li>
+    </ul>
+
+    <p id="question-feedback">Correct</p>
+  </section>
+
+
+  <!-- end game screen -->
+  <section class="hide" id="section-endgame">
+    <!-- display the current score -->
+    <h2 id="end-game-highscore">10</h2>
+    <!-- enter initial -->
+    <label for="highscore-initial">Initial</label>
+    <input id="highscore-initial"  maxlength="40" type="text"  >
+
+    <!-- button -- submit -->
+    <button type="button">Submit</button>
+  </section>
+
+
+  <!-- highscore -->
+  <section class="hide" id="section-highscore">
+
+    <!-- list of previous highscore against initial -->
+    <h1>Highscores</h1>
+    <ul id="list-highscores">
+      <li>20</li>
+      <li>16</li>
+      <li>11</li>
+    </ul>
+    <!-- button to redirect to landing page -->
+    <button type="button">Play again</button>
+
+  </section>
+
+
+
+  <script src="app.js"></script>
+
+
+
+</body>
+</html>
